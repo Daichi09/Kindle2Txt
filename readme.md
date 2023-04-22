@@ -3,6 +3,7 @@ Kindle2Txt is a simple program that will convert Kindle Word lookup data into a 
 
 ## Getting Started
 The run parameters look like this:
+
     Kindle2Txt.py ([vocab_db_path]) (lang) (output_folder)
 
 An example first run for only japanese books with the output saved in the current directory would be:
