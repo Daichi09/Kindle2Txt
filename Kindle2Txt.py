@@ -36,7 +36,7 @@ def save_sentences(book_data):
   now = datetime.now()
   filename = f'KindleVocab_{now.strftime("%Y%m%d-%H%M%S")}.txt'
   filename_path = os.path.join(config['output_path'], filename)
-  with open(filename_path, 'w') as f:
+  with open(filename_path, 'w', encoding="utf-8") as f:
     for title in book_data:
       if (len(book_data[title]) == 0):
         continue
